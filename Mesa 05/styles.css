@@ -11,12 +11,18 @@ body {
 }
 
 header {
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   background-color: white;
   border-bottom: 1px solid lightgrey;
   color: grey;
   display: flex;
   justify-content: space-between;
+}
+
+header div p {
+  display: inline-block;
+  vertical-align: sub;
+  font-size: 0.9rem;
 }
 
 /* The switch - the box around the slider */
@@ -43,28 +49,28 @@ header {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 26px;
   width: 26px;
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {
@@ -97,7 +103,7 @@ input:checked + .slider:before {
 
 .item h2 {
   font-size: 1em;
-  margin-bottom: .2em;
+  margin-bottom: 0.2em;
 }
 
 /* ------- DARK MODE ------- */
@@ -106,7 +112,7 @@ input:checked + .slider:before {
   background-color: rgb(39, 39, 39);
 }
 
-.dark header { 
+.dark header {
   background-color: rgb(19, 19, 19);
   color: rgb(170, 170, 170);
   border-color: black;
@@ -115,7 +121,7 @@ input:checked + .slider:before {
 .dark .item {
   background-color: rgb(19, 19, 19);
   border-color: black;
-  color: rgb(230, 230, 230)
+  color: rgb(230, 230, 230);
 }
 
 /* ------------------------------ Estilos para o tema escuro (Dark-Mode) ----------------------------------------------- */
