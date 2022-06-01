@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mesa 08</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="titulo">
+      <h1>Mesa 08</h1>
+    </div>
+    <div class="integrantes">
+      <h3>Integrantes:</h3>
+      <ul>
+        <li>Bruno Zeulli</li>
+        <li>Mateus Anjos</li>
+        <li>Nivaldo Dei Tos Jr.</li>
+        <li>Osmar Franco</li>
+        <li>Renato Lino Barros</li>
+        <li>Tiago Silva</li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <h4>Informe seus dados:</h4>
+      <form>
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome"/>
+          <p id="contador"></p>
+        </div>
+        <div>
+          <label for="telefone">Telefone:</label>
+          <input type="text" name="telefone" id="telefone" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <button type="reset" class="button">Limpar</button>
+        <button id="botao-enviar" type="submit" class="button">Enviar</button>
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
