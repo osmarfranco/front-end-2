@@ -9,3 +9,4 @@ Essa matéria enfatiza a aplicação de JavaScript no Front End. Aqui estão tod
 - Mesa 05: https://stunning-gumdrop-a90fd2.netlify.app/ (Implementação de Dark Mode)
 - Mesa 06: https://beamish-ganache-9c1e6a.netlify.app (manipulação do DOM e construção de páginas pelo JavaScript)
 - Mesa 07: https://dainty-belekoy-fd51fd.netlify.app (manipulação do DOM, permitindo ao visitante trocar a imagem dos cards informando uma url externa)
+- Mesa 08: https://voluble-kashata-426b95.netlify.app (Práticas com Eventos e formulários)
