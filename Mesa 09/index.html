@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Mesa 09 - Calculadora com DOM</h1>
+  </header>
+  <section>
+    <div class="calculadora">
+      <input class="display zero" id="display" type="text" value="_" disabled>
+      <div class="teclado">
+        <div class="teclado-numerico">
+          <button id="n1">1</button>
+          <button id="n2">2</button>
+          <button id="n3">3</button>
+          <button id="n4">4</button>
+          <button id="n5">5</button>
+          <button id="n6">6</button>
+          <button id="n7">7</button>
+          <button id="n8">8</button>
+          <button id="n9">9</button>
+          <button id="n0">0</button>
+        </div>
+        <div class="teclado-operacoes">
+          <button id="somar">+</button>
+          <button id="subtrair">-</button>
+          <button id="multiplicar">x</button>
+          <button id="dividir">÷</button>
+          <button id="igual">=</button>
+          <button id="limpar">CE</button>
+          <button id="backspace">⇤</button>
+        </div>
+      </div>
+    </div>
+    <p>Essa simples calculadora faz operações exclusivamente entre <strong>dois</strong> números.</p>
+  </section>
+  <footer>
+    <p>Projeto feito por Osmar Franco</p>
+  </footer>
+  <script src="./calculadora.js" type="module"></script>
+</body>
+</html>
