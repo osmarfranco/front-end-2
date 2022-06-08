@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5e5e5e;
+}
+
+.card {
+  width: 18rem;
+  transition: transform .2s;
+}
+
+.card:hover{
+  transform: scale(1.02);
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card-text {
+  height: 10rem;
+  overflow-y: scroll;
+}
+
+.card ::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+
+.card ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255); 
+  border-radius: 10px;
+}
+
+.card ::-webkit-scrollbar-thumb {
+  background: rgba(59, 59, 59, 0.212); 
+  border-radius: 10px;
+}
