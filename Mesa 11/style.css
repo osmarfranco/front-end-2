@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #22225e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo {
+  margin-inline: auto;
+  margin-top: 1rem;
+  color: whitesmoke;
+}
+
+.integrantes {
+  margin-inline: auto;
+  margin-block: 1.5rem;
+  color: whitesmoke;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  line-height: 1.8;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+}
+
+.button {
+  padding: 0.3rem
+}
