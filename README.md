@@ -2,7 +2,7 @@
 
 Atividades da matéria Front End 2
 
-Essa matéria enfatiza a aplicação de JavaScript no Front End. Aqui estão todas as atividades feitas ao longo dos estudos e os deploys podem ser vistos clicando nos links abaixo:
+Essa matéria aborda a aplicação de JavaScript (vanilla) no Front End. Aqui estão todas as atividades feitas ao longo dos estudos e os deploys podem ser vistos clicando nos links abaixo:
 
 - _[Mesa 02:](https://taupe-sawine-0f4ca6.netlify.app)_ Jo Ken Po
 
