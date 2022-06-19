@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mesa 14</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="titulo">
+      <h1>Mesa 14</h1>
+    </div>
+    <div class="integrantes">
+      <h3>Integrantes:</h3>
+      <ul>
+        <li>Adriana Guedes</li>
+        <li>Osmar Franco</li>
+      </ul>
+    </div>
+
+    <main id="content">
+      <div class="container">
+        <h4>Deixe seu recado:</h4>
+        <form>
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome"/>
+          </div>
+          <div>
+            <textarea name="recado" id="recado" cols="30" rows="10"></textarea>
+          </div>
+        </form>
+        <button type="submit" class="button" id="enviar">Enviar</button>
+      </div>
+      <div class="container">
+        <h3>Recados:</h3>
+        <div id="recados">
+          <!-- Recados postados aparecerão aqui -->
+        </div>  
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
