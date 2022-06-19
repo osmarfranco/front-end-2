@@ -36,6 +36,11 @@ body {
   word-wrap: break-word;
 }
 
+.c1 {
+  width: fit-content;
+  text-align: center;
+}
+
 .button {
-  padding: 0.3rem
+  padding: 0.3rem;
 }
