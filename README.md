@@ -18,4 +18,6 @@ Essa matéria aborda a aplicação de JavaScript (vanilla) no Front End. Aqui es
 
 - _[Mesa 09:](https://delicate-gumption-3e177c.netlify.app/)_ Calculadora JavaScript com DOM
 
+- _[Mesa 14:](https://vermillion-jalebi-9c1320.netlify.app/)_ Página de comentários manipulando localstorage
+
 - _[Checkpoint 01:](https://grand-chimera-cd9e9d.netlify.app)_ Criação de uma galeria de cards onde é possível que o visitante insira novos cards. Também foram implementadas algumas validações de formulários e checagem de conteúdo inválido.
