@@ -1,5 +1,6 @@
 // Aqui realizamos a consulta da promise, esperando sua resposta assíncrona
-fetch('https://randomuser.me/api/')
+function requisitarERenderizarDados(){
+    fetch('https://randomuser.me/api/')
     .then(response => {
         return response.json()
     })
@@ -7,6 +8,7 @@ fetch('https://randomuser.me/api/')
         let user = data.results[0]
         renderizarDadosUsuario(user)
     });
+}
 
 //Elementos HTML
 const CARD = document.getElementById("card")
@@ -22,7 +24,7 @@ function renderizarDadosUsuario(user) {
     <h3>${user.name.title} ${user.name.first} ${user.name.last}</h3>
     <p>${user.email}</p>`
 
-    CARD.innerHTML += html
+    CARD.innerHTML = html
 }
 
 /* --------------------------- Tarefa 2 (extra) --------------------------- */
@@ -30,22 +32,10 @@ function renderizarDadosUsuario(user) {
 // Você pode descomentar o código no index.html e usar esse botão para executar uma nova solicitação API, sem recarregar a página.
 // Cabe aos desenvolvedores decidirem qual bloco de código deve ser contido dentro de uma função para que ele possa ser executado toda vez que um clique de botão for realizado.
 
-function pedirRandom(){
-    fetch('https://randomuser.me/api/')
-    .then(response => {
-        return response.json()
-    })
-    .then(data => {
-        let user = data.results[0]
-        renderizarDadosUsuario(user)
-    });
-}
-
-function limparCard(){
-   CARD.innerHTML = "" 
-}
-
 RANDOM_BTN.addEventListener("click", () => {
-    limparCard()
-    pedirRandom()
+    requisitarERenderizarDados()
 })
+
+onload = () => {
+    requisitarERenderizarDados()
+}
