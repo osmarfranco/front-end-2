@@ -4,9 +4,7 @@ fetch('https://randomuser.me/api/')
         return response.json()
     })
     .then(data => {
-        //manipulamos a resposta
         let user = data.results[0]
-        console.log(data)
         renderizarDadosUsuario(user)
     });
 
@@ -21,7 +19,7 @@ function renderizarDadosUsuario(user) {
     // Isto deve ser baseado nas informações que obtemos da API e inseridas no HTML.
     let html = 
     `<img src="${user.picture.large}">
-    <h2>${user.name.title} ${user.name.first} ${user.name.last}</h2>
+    <h3>${user.name.title} ${user.name.first} ${user.name.last}</h3>
     <p>${user.email}</p>`
 
     CARD.innerHTML += html
@@ -38,9 +36,7 @@ function pedirRandom(){
         return response.json()
     })
     .then(data => {
-        //manipulamos a resposta
         let user = data.results[0]
-        console.log(data)
         renderizarDadosUsuario(user)
     });
 }
